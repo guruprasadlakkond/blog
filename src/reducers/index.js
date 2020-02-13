@@ -1,5 +1,6 @@
 import { combineReducers } from 'redux';
-const posts = () => {
+import posts from './posts';
+/* const posts = () => {
   return [{ id: 1, title: 'hello' }];
-};
+}; */
 export default combineReducers({ posts });
