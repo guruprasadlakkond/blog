@@ -1,6 +1,6 @@
 export default (state = [], action) => {
-  console.log(state);
-  console.log(action);
+  // console.log(state);
+  // console.log(action);
   switch (action.type) {
     case 'FETCH_POSTS':
       return action.payload;

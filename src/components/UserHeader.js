@@ -3,9 +3,10 @@ import { connect } from 'react-redux';
 import { fetchUser } from '../actions';
 
 class Userheader extends React.Component {
-  componentDidMount() {
-    this.props.fetchUser(this.props.userId);
-  }
+  // componentDidMount() {
+  //   this.props.fetchUser(this.props.userId);
+  // }
+
   render() {
     if (!this.props.user) {
       return <div>Loading......</div>;
